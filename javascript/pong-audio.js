@@ -52,10 +52,10 @@ soundArray.push(paddleSound);
 export var scoreSound = new soundFile("beep3-98810.mp3");
 soundArray.push(scoreSound);
 
-export var ambientSound = new soundFile("ambientSound.mp3");
+export var ambientSound = new soundFile("8-bit-music-background.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
-ambientSound.player.volume.value = -20; //turn down volume
+ambientSound.player.volume.value = 50; //turn up volume
 
 export var adventureMusic = new soundFile("adventuremusic.mp3");
 soundArray.push(adventureMusic);
