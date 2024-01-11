@@ -43,13 +43,13 @@ export var soundArray = []; //list of sounds loaded
 
 //Here is where all the Sound File Players Start
 
-export var wallSound = new soundFile("wall.mp3"); //load sound
+export var wallSound = new soundFile("arcade-8bit-fx-159064.mp3"); //load sound
 soundArray.push(wallSound); //add sound to list of sounds
 
-export var paddleSound = new soundFile("paddle.mp3");
+export var paddleSound = new soundFile("one_beep-99630.mp3");
 soundArray.push(paddleSound);
 
-export var scoreSound = new soundFile("silence.mp3");
+export var scoreSound = new soundFile("beep3-98810.mp3");
 soundArray.push(scoreSound);
 
 export var ambientSound = new soundFile("ambient.mp3");
@@ -57,10 +57,10 @@ soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
 ambientSound.player.volume.value = -20; //turn down volume
 
-export var adventureMusic = new soundFile("silence.mp3");
+export var adventureMusic = new soundFile("8-bit-space.mp3");
 soundArray.push(adventureMusic);
 adventureMusic.player.loop = true;
-adventureMusic.player.volume.value = -16;
+adventureMusic.player.volume.value = 50;
 
 export var villageMusic = new soundFile("silence.mp3");
 soundArray.push(villageMusic);
