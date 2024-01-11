@@ -55,7 +55,7 @@ soundArray.push(scoreSound);
 export var ambientSound = new soundFile("8-bit-space.mp3");
 soundArray.push(ambientSound);
 ambientSound.player.loop = true; //turn on looping
-ambientSound.player.volume.value = 50; //turn up volume
+ambientSound.player.volume.value = 100; //turn up volume
 
 export var adventureMusic = new soundFile("adventuremusic.mp3");
 soundArray.push(adventureMusic);
